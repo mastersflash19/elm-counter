@@ -55,16 +55,6 @@
 
 ---
 
-## 📸 Screenshots
-
-### Desktop View
-![ELM Counter Desktop](screenshots/desktop-view.png)
-
-### Responsive Design
-![ELM Counter Mobile](screenshots/mobile-view.png)
-
-### Dark Mode
-![ELM Counter Dark Mode](screenshots/dark-mode.png)
 
 ---
 

@@ -30,6 +30,8 @@
 - ⚡ **Fast Performance** - Built with Elm's efficient runtime
 - 📱 **Responsive** - Works on all screen sizes
 - 🎯 **Type Safety** - Compile-time guarantees
+- 🌙 **Dark Mode** - Automatic dark mode support
+- 📊 **Status Display** - Shows Positive/Negative/Zero status
 
 ---
 
@@ -37,9 +39,9 @@
 
 | Technology | Purpose |
 |------------|---------|
-| **Elm** | Functional programming language |
-| **HTML** | Structure and markup |
-| **CSS** | Styling and layout |
+| **Elm 0.19.1** | Functional programming language |
+| **HTML5** | Structure and markup |
+| **CSS3** | Styling and layout with dark mode |
 | **JavaScript** | Integration and deployment |
 
 ### Key Elm Concepts Applied
@@ -47,7 +49,7 @@
 - ✅ Pure Functions
 - ✅ Immutable Data
 - ✅ Type Inference
-- ✅ Custom Types
+- ✅ Custom Types (Msg)
 - ✅ Pattern Matching
 - ✅ Higher-Order Functions
 
@@ -55,4 +57,60 @@
 
 ## 📸 Screenshots
 
-*Coming soon!*
+### Desktop View
+![ELM Counter Desktop](screenshots/desktop-view.png)
+
+### Responsive Design
+![ELM Counter Mobile](screenshots/mobile-view.png)
+
+### Dark Mode
+![ELM Counter Dark Mode](screenshots/dark-mode.png)
+
+---
+
+## 🎮 How to Use
+
+### Controls
+
+| Button | Action |
+|--------|--------|
+| **+ (Increment)** | Increase counter by 1 |
+| **- (Decrement)** | Decrease counter by 1 |
+| **Reset** | Reset counter to 0 |
+
+### Status Indicators
+- 🟢 **Positive** - Counter value is greater than 0
+- 🔴 **Negative** - Counter value is less than 0
+- ⚪ **Zero** - Counter value is exactly 0
+
+---
+
+## 🚀 Installation
+
+### Prerequisites
+- **Elm** 0.19.0 or higher
+- **Node.js** 14+ (for npm)
+- **Git** (for cloning)
+
+### Steps
+
+```bash
+# Clone the repository
+git clone https://github.com/mastersflash19/elm-counter.git
+
+# Navigate to project directory
+cd elm-counter
+
+# Install Elm (if not installed globally)
+npm install -g elm
+
+# Install dependencies (if any)
+npm install
+
+# Run the development server
+elm reactor
+
+# Open in browser
+# http://localhost:8000
+
+# Click on "src/" then click on "Main.elm"
